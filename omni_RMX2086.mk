@@ -15,9 +15,9 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := bladerunner
+PRODUCT_RELEASE_NAME := RMX2086
 
-$(call inherit-product, device/realme/bladerunner/device.mk)
+$(call inherit-product, device/realme/RMX2086/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -28,11 +28,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := bladerunner
-PRODUCT_NAME := twrp_bladerunner
-PRODUCT_BRAND := Realme
-PRODUCT_MODEL := X50 Pro
-PRODUCT_MANUFACTURER := Realme
+PRODUCT_DEVICE := RMX2086
+PRODUCT_NAME := omni_RMX2086
+PRODUCT_BRAND := realme
+PRODUCT_MODEL := X3 SuperZoom
+PRODUCT_MANUFACTURER := realme
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \

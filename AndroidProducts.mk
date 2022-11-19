@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_bladerunner.mk
+    $(LOCAL_DIR)/omni_RMX2086.mk
 
-COMMON_LUNCH_CHOICES := twrp_bladerunner-eng
+COMMON_LUNCH_CHOICES := omni_RMX2086-eng
